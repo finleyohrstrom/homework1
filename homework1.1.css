@@ -1,0 +1,49 @@
+body {
+	margin: 0; padding: 0; 
+}
+
+.top-bar-title {
+	position: fixed; background-color: blue; padding: 0px 25px 0px 25px; margin-left: 10%; height: 20%; max-height: 75px;
+}
+#name {
+	size: auto;
+}
+.top-bar {
+	background-color: red; width: 100%; position: fixed; height: 20%; border-bottom: 1px solid grey; max-height: 75px; 
+}
+ul {
+	float: right; margin-right: 15.5%; max-height: 75px; margin-top: 30px; 
+}
+li {
+	display: inline-block; margin-left: 10px; background-color: grey; line-height: normal;
+}
+.list-border {
+	padding-left: 5px solid grey;
+}
+.connect {
+	float: right; background-color: orange; position: fixed; margin-top: 7%; margin-right: 10%; margin-left: 69%; border-top: transparent 20% solid;
+}
+.connect-title{
+	text-align: center; border-bottom: 1px gray solid; font-size: 20px; padding-bottom: 7%; width: 80%; margin-left: 10%;
+}
+.connect-youtube{ 
+	margin: 3px 2.5px 10px 7.5px;
+}
+.connect-facebook{
+	margin: 3px 2.5px 10px 2.5px;
+}
+.connect-linkedin{
+	margin: 3px 5px 10px 2.5px;
+}
+#bio-title {
+	border-bottom: 1px gray solid; font-size: 24px; width: 80%; margin-left: 10%; margin-right: auto;
+}
+.bio {
+	float: left; margin: 7% 35% 0% 10%; background-color: yellow; position: absolute; 
+}
+#me {
+	float: left; margin: 0% 2.5% 1%;
+}
+.footer {
+	background-color: pink; border-top: 10px solid #4aaaa5; padding: 30px; position: fixed; bottom: 0%; width: 100%; margin-top: 10%;
+}
